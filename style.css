@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+}
+
+.bleh {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 600px;
+  margin: 25px auto;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 100px;
+}
+
+html {
+  background: url("8419375.jpg") no-repeat fixed center;
+  background-size: cover;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nav a {
+  margin: 0px 25px;
+  text-align: center;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff,
+    0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 0, 0);
+}
+
+.titles {
+  text-align: center;
+  color: #fff;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff,
+    0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
+  padding-top: 100px;
+}
+
+.flashing {
+  animation: flicker 3s infinite alternate;
+}
+
+.neonnormal {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff,
+    0 0 82px #fff, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #fff;
+}
+@keyframes flicker {
+  0%,
+  18% {
+    text-shadow: none;
+  }
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #fff,
+      0 0 80px #fff, 0 0 90px #fff, 0 0 100px #fff, 0 0 150px #fff;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.answerright {
+  color: rgb(255, 127, 127);
+}
+
+.answerwrong {
+  color: black;
+}
